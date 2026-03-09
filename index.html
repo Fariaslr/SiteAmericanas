@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Americanas</title>
+    <title>Lucas Farias - Site Americanas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div id="logo">
@@ -19,19 +22,140 @@
             <img src="assets/americanasfavoritos.png" alt="Favoritos">
             <img src="assets/americanas_carrinho.png" alt="Carrinho">
         </div>
+        <nav class="header-secundario">
+            <ul>
+                <li>pra sua empresa</li>
+                <li>baixe o app</li>
+                <li>entrega rápida</li>
+                <li>nossas lojas</li>
+                <li>dinheiro de volta</li>
+                <li>lojas oficiais</li>
+                <li>marcas próprias</li>
+                <li>serviços</li>
+                <li>oferta do dia</li>
+            </ul>
+        </nav>
     </header>
-    <nav></nav>
+    <nav>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">mercado</a></li>
+            <li><a href="#">celulares</a></li>
+            <li><a href="#">eletrodomésticos</a></li>
+            <li><a href="#">informática</a></li>
+            <li><a href="#">tv e home theater</a></li>
+            <li><a href="#">eletroportáteis</a></li>
+            <li><a href="#">móveis</a></li>
+            <li><a href="#" class="destaque-outlet">outlet</a></li>
+        </ul>
+    </nav>
     <main>
         <aside>
+            <p class="breadcrumb">página inicial > celulares e smartphones</p>
+
             <h2>celulares e smartphones</h2>
-            <h3>vendido por</h3>
-            <form>
-                <input type="checkbox" id="submarino"> <label for="submarino">submarino (449)</label><br>
-                <input type="checkbox" id="samsung"> <label for="samsung">samsung (60)</label><br>
+
+            <div class="filtro-grupo">
+                <h3>vendido por</h3>
+                <form>
+                    <input type="checkbox" id="submarino"> <label for="submarino">submarino
+                        <span>(449)</span></label><br>
+                    <input type="checkbox" id="samsung"> <label for="samsung">samsung <span>(60)</span></label><br>
+                    <a href="#" class="ver-todos">ver todos</a>
                 </form>
+            </div>
+
+            <hr>
+
+            <div class="filtro-grupo">
+                <h3>preço</h3>
+                <form>
+                    <input type="checkbox"> <label>até R$ 25,00 <span>(3792)</span></label><br>
+                    <input type="checkbox"> <label>R$ 25,00 a R$ 50,00 <span>(6352)</span></label><br>
+                    <input type="checkbox"> <label>R$ 50,00 a R$ 100,00 <span>(4212)</span></label><br>
+                </form>
+            </div>
         </aside>
-        <section></section>
+        <section>
+            <article>
+                <figure>
+                    <img src="assets/fotoproduto1.png" alt="Samsung S20">
+                </figure>
+                <div class="info-produto">
+                    <h3>smartphone samsung galaxy s20 fe 5g 128gb...</h3>
+                    <img src="assets/estrelasavaliacoes.png" alt="4279 avaliações">
+                    <p class="preco">R$ 1.618,90</p>
+                    <p class="parcela">8x de R$ 202,36 sem juros no cartão de crédito</p>
+                </div>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/fotoproduto2.png" alt="Samsung S20">
+                </figure>
+
+                <div class="info-produto">
+                    <h3>smartphone samsung galaxy s20 fe 5g 128gb...</h3>
+                    <img src="assets/estrelasavaliacoes.png">
+                    <p class="preco">R$ 1.999,00</p>
+                    <p class="parcela">8x de R$ 249,87 sem juros no cartão</p>
+                </div>
+
+            </article>
+
+            <article>
+                <figure>
+                    <img src="assets/fotoproduto3.png">
+                </figure>
+
+                <div class="info-produto">
+                    <h3>smartphone samsung galaxy a14 128gb...</h3>
+                    <img src="assets/estrelasavaliacoes.png">
+                    <p class="preco">R$ 1.049,00</p>
+                    <p class="parcela">6x de R$ 174,83 sem juros</p>
+                </div>
+
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/galaxy a17.webp">
+                </figure>
+                <div class="info-produto">
+                    <h3>smartphone samsung galaxy a17 256gb...</h3>
+                    <img src="assets/estrelasavaliacoes.png">
+                    <p class="preco">R$ 899,00</p>
+                    <p class="parcela">6x de R$ 149,83 sem juros</p>
+                </div>
+
+            </article>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+
+        <div id="altnav">
+            <a href="#">SAC 4003-5544</a>
+            <a href="#">Programa de afiliados</a>
+            <a href="#">Americanas Advertising</a>
+            <a href="#">Americanas Empresas</a>
+            <a href="#">Venda no Sub</a>
+            <a href="#">Ame Digital</a>
+            <a href="#">Cartão de crédito Ame</a>
+            <a href="#">Submarino Viagens</a>
+        </div>
+
+        <div class="footer-bottom">
+
+            <div id="logo-rodape-container">
+                <img src="assets/americanas_logorodape.png" alt="Logo Rodapé" class="img-rodape">
+            </div>
+
+            <div class="social-icons">
+                <img src="assets/iconesredessociais.png" alt="Redes Sociais">
+            </div>
+
+        </div>
+
+        <p class="creditos">Feito por Lucas Rego Farias</p>
+
+    </footer>
 </body>
+
 </html>
